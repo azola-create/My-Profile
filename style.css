@@ -1,0 +1,25 @@
+h1{
+    color: greenyellow;
+    font-family: sans-serif;
+}
+
+p{
+    color: rgb(180, 136, 22);
+    font-family: fantasy;
+    border:2px solid powderblue; 
+    padding: 50px;
+}
+
+body {
+  margin: 50px;
+  background-color: rgb(2, 21, 23);
+  color:rgb(245, 66, 11)
+}
+
+ol{
+    list-style: square;
+}
+
+ul{
+    list-style: circle;
+}
