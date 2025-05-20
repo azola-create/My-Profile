@@ -1,6 +1,8 @@
-h1{
+h1,h6{
     color: greenyellow;
-    font-family: sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    text-align: left;
 }
 
 p{
@@ -8,18 +10,39 @@ p{
     font-family: fantasy;
     border:2px solid powderblue; 
     padding: 50px;
+    text-align: center;
 }
 
 body {
   margin: 50px;
   background-color: rgb(2, 21, 23);
-  color:rgb(245, 66, 11)
+  color:rgb(245, 66, 11);
+  font-family: Verdana;
+  text-align: center;
 }
 
 ol{
     list-style: square;
+    text-align: center;
+
 }
 
 ul{
     list-style: circle;
+    text-align: center;
+    list-style-image: url(images/pointer-icon.png);
+}
+
+a:hover {
+  color: rgb(14, 23, 194);
+  background-color: transparent;
+  text-decoration: underline;
+  text-align: center;
+}
+
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+  text-align: center;
 }
